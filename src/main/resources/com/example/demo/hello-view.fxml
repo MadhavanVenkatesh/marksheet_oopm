@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <VBox prefHeight="700.0" prefWidth="900.0">
+         <children>
+            <ToolBar fx:id="toolbar" prefHeight="40.0" prefWidth="200.0">
+              <items>
+                <Button fx:id="addstud" mnemonicParsing="false" onAction="#switchtoStudent" style="-fx-border-color: #dbf3fa; -fx-border-width: 2;" text="Add Student">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="addm" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#switchtoMarks" style="-fx-border-width: 2; -fx-border-color: #dbf3fa;" text="Add Marks">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#switchtoMarksheet" style="-fx-border-color: #dbf3fa; -fx-border-width: 2;" text="Marksheet">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+              </items>
+            </ToolBar>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
